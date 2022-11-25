@@ -39,7 +39,7 @@ date: 8 November 2022
 cito-bibliography: paper.bib
 event: BH22EU
 biohackathon_name: "BioHackathon Europe 2022"
-biohackathon_url:   "https://biohackathon-europe.org/"
+biohackathon_url:   "https://biohackathon-europe.org"
 biohackathon_location: "Paris, France, 2022"
 group: Project 16
 # URL to project git repo --- should contain the actual paper.md:
