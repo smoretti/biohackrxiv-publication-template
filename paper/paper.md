@@ -33,7 +33,7 @@ affiliations:
     index: 3
   - name: EMBL, Heidelberg, DE
     index: 4
-  - name: HPCNow!: Barcelona, Barcelona, ES
+  - name: HPCNow! Barcelona, Barcelona, ES
     index: 5
 date: 8 November 2022
 cito-bibliography: paper.bib
