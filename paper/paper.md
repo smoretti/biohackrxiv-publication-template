@@ -1,33 +1,52 @@
 ---
-title: 'BioHackEU22 Template'
-title_short: 'BioHackEU22 #26: unknown chemical substances'
+title: 'BioHackEU22 Report for Project 16: Make your own or favourite software available on your cluster with EasyBuild/EESSI'
+title_short: 'BioHackEU22 #16: easybuild-eessi'
 tags:
-  - cheminformatics
-  - PubChem
-  - unknown chemical substances
+  - Software installation framework
+  - Workflows
+  - Scientific software
 authors:
-  - name: First Author
+  - name: Sébastien Moretti
+    orcid: 0000-0003-3947-488X
     affiliation: 1
-  - name: Last Author
-    orcid: 0000-0000-0000-0000
+  - name: Kenneth Hoste
+    orcid: 0000-0001-8034-648X
     affiliation: 2
+  - name: Alan O’Cais
+    orcid: 0000-0002-8254-8752
+    affiliation: 3
+  - name: Jurij Pečar
+    orcid: 0000-0002-6096-3808
+    affiliation: 4
+  - name: Elisabeth Ortega
+    orcid: 0000-0001-5410-5375
+    affiliation: 5
+  - name: Anthony Fullam
+    orcid: 0000-0002-0884-8124
+    affiliation: 4
 affiliations:
-  - name: First Affiliation
+  - name: Vital-IT group, SIB Swiss Institute of Bioinformatics, Lausanne, CH
     index: 1
-  - name: Second Affiliation
+  - name: Dept of Information and Communication Technology, Ghent University, Ghent, BE
     index: 2
+  - name: Centre Européen de Calcul Atomique et Moléculaire (CECAM), EPFL, Lausanne, CH
+    index: 3
+  - name: EMBL, Heidelberg, DE
+    index: 4
+  - name: HPCNow!: Barcelona, Barcelona, ES
+    index: 5
 date: 8 November 2022
 cito-bibliography: paper.bib
 event: BH22EU
 biohackathon_name: "BioHackathon Europe 2022"
 biohackathon_url:   "https://biohackathon-europe.org/"
 biohackathon_location: "Paris, France, 2022"
-group: Project 26
+group: Project 16
 # URL to project git repo --- should contain the actual paper.md:
-git_url: https://github.com/biohackrxiv/publication-template
+git_url: https://github.com/smoretti/biohackrxiv-publication-template
 # This is the short authors description that is used at the
 # bottom of the generated paper (typically the first two authors):
-authors_short: First Author \emph{et al.}
+authors_short: Sébastien Moretti & Kenneth Hoste \emph{et al.}
 ---
 
 
