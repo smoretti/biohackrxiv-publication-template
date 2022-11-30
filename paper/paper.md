@@ -54,7 +54,11 @@ authors_short: Sébastien Moretti & Kenneth Hoste \emph{et al.}
 
 As part of the BioHackathon Europe 2022, we here report the outcomes of the Project #16: **Make your own or favourite software available on your cluster with EasyBuild/EESSI**.
 
-The main goals of the project were to introduce users to EasyBuild and EESSI, and to port new software to EasyBuild/EESSI (e.g., the participant’s own or favourite software), thereby making it available and discoverable to the entire EasyBuild community. In parallel we would like to build bridges between EESSI and Galaxy to make the scientific software more accessible to researchers in the domain.
+<img src="easybuild_logo.png" alt="EasyBuild logo" width="400">
+
+<img src="EESSI_logo.png" alt="EESSI logo" width="400">
+
+The main goals of the project were to introduce users to [EasyBuild](https://easybuild.io/) and [EESSI](https://www.eessi-hpc.org/), to port new software to EasyBuild/EESSI (e.g., the participant’s own or favourite software) - thereby making it available and discoverable to the entire EasyBuild community -, and to convert a Nextflow pipeline into a EESSI pipeline. In parallel we would like to build bridges between EESSI and Galaxy to make the scientific software more accessible to researchers in the domain.
 
 
 
@@ -73,9 +77,6 @@ Tables can be added in the following way, though alternatives are possible:
 
 Table: Note that table caption is automatically numbered.
 
-A figure is added with:
-
-![Caption for BioHackrXiv logo figure](./biohackrxiv.png)
 
 # Other main section on your manuscript level 1
 
@@ -112,3 +113,5 @@ Possible CiTO typing annotation include:
 ...
 
 ## References
+
+1. EESSI [@citesAsAuthority:https://doi.org/10.1002/spe.3075]
