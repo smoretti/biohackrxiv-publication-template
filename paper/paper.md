@@ -52,11 +52,11 @@ authors_short: Sébastien Moretti & Kenneth Hoste \emph{et al.}
 
 # Introduction
 
-As part of the BioHackathon Europe 2022, we here report...
+As part of the BioHackathon Europe 2022, we here report the outcomes of the Project #16: **Make your own or favourite software available on your cluster with EasyBuild/EESSI**.
 
-# Formatting
+The main goals of the project were to introduce users to EasyBuild and EESSI, and to port new software to EasyBuild/EESSI (e.g., the participant’s own or favourite software), thereby making it available and discoverable to the entire EasyBuild community. In parallel we would like to build bridges between EESSI and Galaxy to make the scientific software more accessible to researchers in the domain.
 
-This document use Markdown and you can look at [this tutorial](https://www.markdowntutorial.com/).
+
 
 ## Subsection level 2
 
