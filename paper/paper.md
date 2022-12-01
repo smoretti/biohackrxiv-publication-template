@@ -114,4 +114,4 @@ Possible CiTO typing annotation include:
 
 ## References
 
-1. EESSI [@citesAsAuthority:https://doi.org/10.1002/spe.3075]
+1. EESSI [@citesAsAuthority:EESSI2022]
