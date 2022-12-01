@@ -54,9 +54,9 @@ authors_short: Sébastien Moretti & Kenneth Hoste \emph{et al.}
 
 As part of the BioHackathon Europe 2022, we here report the outcomes of the Project #16: **Make your own or favourite software available on your cluster with EasyBuild/EESSI**.
 
-<img src="easybuild_logo.png" alt="EasyBuild logo" width="400">
+![EasyBuild logo](./easybuild_logo400.png)
 
-<img src="EESSI_logo.png" alt="EESSI logo" width="400">
+![EESSI logo](./EESSI_logo400.png)
 
 The main goals of the project were to introduce users to [EasyBuild](https://easybuild.io/) and [EESSI](https://www.eessi-hpc.org/), to port new software to EasyBuild/EESSI (e.g., the participant’s own or favourite software) - thereby making it available and discoverable to the entire EasyBuild community -, and to convert a Nextflow pipeline into a EESSI pipeline. In parallel we would like to build bridges between EESSI and Galaxy to make the scientific software more accessible to researchers in the domain.
 
