@@ -54,52 +54,21 @@ authors_short: Sébastien Moretti & Kenneth Hoste \emph{et al.}
 
 As part of the BioHackathon Europe 2022, we here report the outcomes of the Project #16: **Make your own or favourite software available on your cluster with EasyBuild/EESSI**.
 
-![EasyBuild logo](./easybuild_logo400.png)
-
-![EESSI logo](./EESSI_logo400.png)
+![EasyBuild logo](./easybuild_logo400.png)  ![EESSI logo](./EESSI_logo400.png)
 
 The main goals of the project were to introduce users to [EasyBuild](https://easybuild.io/) and [EESSI](https://www.eessi-hpc.org/), to port new software to EasyBuild/EESSI (e.g., the participant’s own or favourite software) - thereby making it available and discoverable to the entire EasyBuild community -, and to convert a Nextflow pipeline into an EESSI pipeline. In parallel we started to build bridges between EESSI and Galaxy to make the scientific software more accessible to researchers in the domain.
 
 
+## What are EasyBuild and EESI?
 
-## Subsection level 2
-
-Please keep sections to a maximum of only two levels.
-
-## Tables and figures
-
-Tables can be added in the following way, though alternatives are possible:
-
-| Header 1 | Header 2 |
-| -------- | -------- |
-| item 1 | item 2 |
-| item 3 | item 4 |
-
-Table: Note that table caption is automatically numbered.
+EasyBuild is a community effort to develop a software build and installation framework that allows you to manage (scientific) software on High Performance Computing (HPC) systems in an efficient way. As its name suggests, EasyBuild makes software installation easy by automating builds, making previous builds reproducible, resolving dependencies, and retaining logs for traceability. It is also one of the components of the **European Environment for Scientific Software Installations** (EESSI), a collaboration between different European HPC sites and industry partners, with the common goal to set up a shared repository of scientific software installations that can be used on a variety of operating systems and computer architectures. It can be applied in a full size HPC cluster, a cloud environment, a container or a personal workstation.
 
 
-# Other main section on your manuscript level 1
+## EasyBuild and EESSI in life sciences
 
-Lists can be added with:
+With the deluge of data in the genomics field (e.g., clinical data) and the concomitant development of new technologies, the number of data analysis software has exploded in recent years. The fields of bioinformatics and cheminformatics follow this same trend with ever more developments to optimize and parallelize analyses. The bioinformatics field is now the main provider of new software in EasyBuild. Developers of those tools are not always professional developers, and they do therefore not always follow best practices when releasing their software. As a result, many tools are complicated to install, making them ideal candidates for porting their installation to EasyBuild so that they become more easily accessible to end users.
 
-1. Item 1
-2. Item 2
 
-# Citation Typing Ontology annotation
-
-You can use CiTO annotations, as explained in [this BioHackathon Europe 2021 write up](https://raw.githubusercontent.com/biohackrxiv/bhxiv-metadata/main/doc/elixir_biohackathon2021/paper.md) and [this CiTO Pilot](https://www.biomedcentral.com/collections/cito).
-Using this template, you can cite an article and indicate why you cite that article, for instance DisGeNET-RDF [@citesAsAuthority:Queralt2016].
-
-Possible CiTO typing annotation include:
-
-* citesAsDataSource: when you point the reader to a source of data which may explain a claim
-* usesDataFrom: when you reuse somehow (and elaborate on) the data in the cited entity
-* usesMethodIn
-* citesAsAuthority
-* discusses
-* extends
-* agreesWith
-* disagreesWith
 
 # Results
 
@@ -111,6 +80,26 @@ Possible CiTO typing annotation include:
 ## Acknowledgements
 
 ...
+
+## Useful links
+
+### Getting started and Slack links
+
+- Getting started with EasyBuild: https://docs.easybuild.io/
+- Getting started with EESSI: https://eessi.github.io/docs/
+- EasyBuild Slack channel: https://easybuild.io/join-slack
+- EESSI Slack channel: https://www.eessi-hpc.org/slack-channel/
+
+### Other links
+
+- EasyBuild homepage: https://easybuild.io/
+- EasyBuild community: https://github.com/easybuilders
+- EasyBuild last presentations: https://www.youtube.com/c/easybuilders
+- EESSI homepage: https://www.eessi-hpc.org/
+- EESSI at GitHub: https://github.com/EESSI
+- Introductory talk on EESSI:
+  - https://archive.fosdem.org/2021/schedule/event/eessi
+  - https://eessi.github.io/docs/meetings/2022-09-amsterdam/EESSI-community-meeting-2022.09-001-introduction-to-EESSI.pdf
 
 ## References
 
