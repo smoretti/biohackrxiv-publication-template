@@ -58,7 +58,7 @@ As part of the BioHackathon Europe 2022, we here report the outcomes of the Proj
 
 ![EESSI logo](./EESSI_logo400.png)
 
-The main goals of the project were to introduce users to [EasyBuild](https://easybuild.io/) and [EESSI](https://www.eessi-hpc.org/), to port new software to EasyBuild/EESSI (e.g., the participant’s own or favourite software) - thereby making it available and discoverable to the entire EasyBuild community -, and to convert a Nextflow pipeline into a EESSI pipeline. In parallel we would like to build bridges between EESSI and Galaxy to make the scientific software more accessible to researchers in the domain.
+The main goals of the project were to introduce users to [EasyBuild](https://easybuild.io/) and [EESSI](https://www.eessi-hpc.org/), to port new software to EasyBuild/EESSI (e.g., the participant’s own or favourite software) - thereby making it available and discoverable to the entire EasyBuild community -, and to convert a Nextflow pipeline into an EESSI pipeline. In parallel we started to build bridges between EESSI and Galaxy to make the scientific software more accessible to researchers in the domain.
 
 
 
