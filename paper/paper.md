@@ -131,6 +131,7 @@ See pull request details [here](https://github.com/easybuilders/easybuild-easyco
 On the EESSI deployment side, a pull request was done to add the pipeline in the EESSI pilot script.
 
 Nevertheless, several issues came out:
+
 - The pipeline was tested in a cloud environment with different architectures. Some of the pipeline tools do not compile easily on some of these architectures.
 - Some tools try to force some library usage. This has to be fixed upstream.
 - Due to the large number of tools in the pipeline, the build in EESSI for the future deployments takes a lot of time and space.
