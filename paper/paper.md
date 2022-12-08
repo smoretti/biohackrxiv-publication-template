@@ -75,6 +75,7 @@ With the deluge of data in the genomics field (e.g., clinical data) and the conc
 
 ## New software to port to EasyBuild
 Based on feedbacks from BioHackathon users, as well as on BioHackathon project topics, some software of the following categories will be added or updated in EasyBuild:
+
 - Galaxy/Workflow
 - Systems Biology
 - Cheminformatics
@@ -95,6 +96,7 @@ During the BioHackathon, EasyBuild and EESSI were presented to different users, 
 
 ## Port new software to EasyBuild
 During the BioHackathon the following new tools were added in EasyBuild:
+
 - Galaxy/Workflow tools: [cwltool](https://github.com/common-workflow-language/cwltool)
 - Systems Biology tools: [python-libsbml](https://pypi.org/project/python-libsbml/) and [COBRApy](https://opencobra.github.io/cobrapy/)
 - Cheminformatics tools: [Chemaxon_marvin](https://chemaxon.com/)
@@ -115,6 +117,7 @@ Those tool categories will continue to have particular attentions and be extende
 As mentioned previously [Nextflow](https://www.nextflow.io/)(Galaxy/Workflow) was first updated in EasyBuild, and added in the base configuration of EESSI.
 
 Tools from the **nf-core/mag** pipeline not available in EasyBuild were added:
+
 - [NanoLyse](https://github.com/wdecoster/nanolyse)
 - [PyDamage](https://github.com/maxibor/pydamage)
 - [CAT-BAT](https://github.com/dutilh/CAT)
