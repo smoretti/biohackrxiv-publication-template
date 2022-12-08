@@ -63,14 +63,50 @@ The main goals of the project were to introduce users to [EasyBuild](https://eas
 
 EasyBuild is a community effort to develop a software build and installation framework that allows you to manage (scientific) software on High Performance Computing (HPC) systems in an efficient way. As its name suggests, EasyBuild makes software installation easy by automating builds, making previous builds reproducible, resolving dependencies, and retaining logs for traceability. It is also one of the components of the **European Environment for Scientific Software Installations** (EESSI), a collaboration between different European HPC sites and industry partners, with the common goal to set up a shared repository of scientific software installations that can be used on a variety of operating systems and computer architectures. It can be applied in a full size HPC cluster, a cloud environment, a container or a personal workstation.
 
+EasyBuild is the software layer component of EESSI.
+
 
 ## EasyBuild and EESSI in life sciences
 
 With the deluge of data in the genomics field (e.g., clinical data) and the concomitant development of new technologies, the number of data analysis software has exploded in recent years. The fields of bioinformatics and cheminformatics follow this same trend with ever more developments to optimize and parallelize analyses. The bioinformatics field is now the main provider of new software in EasyBuild. Developers of those tools are not always professional developers, and they do therefore not always follow best practices when releasing their software. As a result, many tools are complicated to install, making them ideal candidates for porting their installation to EasyBuild so that they become more easily accessible to end users.
 
 
+# Materials
+
+## New software to port to EasyBuild
+Based on feedbacks from BioHackathon users, as well as on BioHackathon project topics, some software of the following categories will be added or updated in EasyBuild:
+- Galaxy/Workflow
+- Systems Biology
+- Cheminformatics
+- Phylogeny/Orthology
+
+## The Nextflow pipeline to convert to an EESSI pipeline
+One of our users works in metagenomics and is interested by the [nf-core/mag](https://nf-co.re/mag) pipeline: **Assembly and binning of metagenomes**.
+
+**nf-core/mag** is a "bioinformatics best-practise analysis pipeline for assembly, binning and annotation of metagenomes". It is composed of about 28 different tools. This complicated pipeline was chosen to illustrate how easy pipelines can be deployed in an optimised version with EESSI.
+
+Missing tools have to be added in EasyBuild, and some tools already in EasyBuild may have to be updated.
+
 
 # Results
+
+## Introduce EasyBuild and EESSI
+
+## Port new software to EasyBuild
+During the BioHackathon the following new tools were added in EasyBuild:
+- Galaxy/Workflow tools: [cwltool](https://pypi.org/project/cwltool/)
+- Systems Biology tools: [python-libsbml](https://pypi.org/project/python-libsbml/) and [COBRApy](https://pypi.org/project/cobra/)
+- Cheminformatics tools: [Chemaxon_marvin](https://chemaxon.com/)
+- Phylogeny/Orthology tools: [Godon](https://bitbucket.org/Davydov/godon) and [InParanoid](https://bitbucket.org/sonnhammergroup/inparanoid/)
+
+[Nextflow](https://www.nextflow.io/)(Galaxy/Workflow) required for the pipeline convertion to EESSI was updated to the last version.
+
+[toil](https://pypi.org/project/toil/)(Galaxy/Workflow) deployement in EasyBuild is almost complete, waiting for the toil main developer a fix.
+
+Those tool categories will continue to have particular attentions and be extended in EasyBuild.
+
+
+## Convert a Nextflow pipeline to EESSI
 
 
 # Discussion
