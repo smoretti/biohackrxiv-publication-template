@@ -100,11 +100,11 @@ During the BioHackathon the following new tools were added in EasyBuild:
 - Cheminformatics tools: [Chemaxon_marvin](https://chemaxon.com/)
 - Phylogeny/Orthology tools: [Godon](https://bitbucket.org/Davydov/godon) and [InParanoid](https://bitbucket.org/sonnhammergroup/inparanoid/)
 
-[Nextflow](https://www.nextflow.io/)(Galaxy/Workflow) required for the pipeline convertion to EESSI was updated to the last version.
+[Nextflow](https://www.nextflow.io/)(Galaxy/Workflow) required for the pipeline conversion to EESSI was updated to the last version.
 
-So **7** pull requests!
+So, **7** pull requests!
 
-[toil](https://github.com/DataBiosphere/toil)(Galaxy/Workflow) deployement in EasyBuild is almost complete, waiting for a fix from the toil main developer.
+[toil](https://github.com/DataBiosphere/toil)(Galaxy/Workflow) deployment in EasyBuild is almost complete, waiting for a fix from the toil main developer.
 
 Those tool categories will continue to have particular attentions and be extended in EasyBuild.
 
@@ -112,7 +112,7 @@ Those tool categories will continue to have particular attentions and be extende
 ## Convert a Nextflow pipeline to EESSI
 
 ### Software side
-As mentionned previously [Nextflow](https://www.nextflow.io/)(Galaxy/Workflow) was first updated in EasyBuild, and added in the base configuration of EESSI.
+As mentioned previously [Nextflow](https://www.nextflow.io/)(Galaxy/Workflow) was first updated in EasyBuild, and added in the base configuration of EESSI.
 
 Tools from the **nf-core/mag** pipeline not available in EasyBuild were added:
 - [NanoLyse](https://github.com/wdecoster/nanolyse)
@@ -121,11 +121,24 @@ Tools from the **nf-core/mag** pipeline not available in EasyBuild were added:
 
 Some other tools of the pipeline were version- and/or toolchain-updated.
 
-With their requirements, overall it corresponds to about **20** pull requests, i.e. about **27** software.
+With their requirements, overall, it corresponds to about **20** pull requests, i.e., about **27** software.
 
 An extra pull request was done to bundle the whole pipeline tool list into a single entry point for EESSI.
 
+See pull request details [here](https://github.com/easybuilders/easybuild-easyconfigs/issues?q=label%3ABioHack2022)
+
 ### EESSI deployment side
+On the EESSI deployment side, a pull request was done to add the pipeline in the EESSI pilot script.
+
+Nevertheless, several issues came out:
+- The pipeline was tested in a cloud environment with different architectures. Some of the pipeline tools do not compile easily on some of these architectures.
+- Some tools try to force some library usage. This has to be fixed upstream.
+- Due to the large number of tools in the pipeline, the build in EESSI for the future deployments takes a lot of time and space.
+- It looks the original pipeline - running with containers - has also issues and cannot be run as is.
+
+See pull requests details [here](https://github.com/EESSI/software-layer/issues?q=label%3ABioHack2022)
+
+We will continue to work on the issues, and try to complete the EESSI deployment of the **nf-core/mag** pipeline in the coming weeks.
 
 
 # Discussion
@@ -133,8 +146,7 @@ An extra pull request was done to bundle the whole pipeline tool list into a sin
 ...
 
 ## Acknowledgements
-
-...
+We would like to acknowledge all users of the BioHackathon for fruitful interactions and advices, as well as the ELIXIR BioHackathon organization team for this great event.
 
 ## Useful links
 
