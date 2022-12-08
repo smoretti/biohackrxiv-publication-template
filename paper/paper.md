@@ -91,22 +91,41 @@ Missing tools have to be added in EasyBuild, and some tools already in EasyBuild
 # Results
 
 ## Introduce EasyBuild and EESSI
+During the BioHackathon, EasyBuild and EESSI were presented to different users, with different backgrounds.
 
 ## Port new software to EasyBuild
 During the BioHackathon the following new tools were added in EasyBuild:
-- Galaxy/Workflow tools: [cwltool](https://pypi.org/project/cwltool/)
-- Systems Biology tools: [python-libsbml](https://pypi.org/project/python-libsbml/) and [COBRApy](https://pypi.org/project/cobra/)
+- Galaxy/Workflow tools: [cwltool](https://github.com/common-workflow-language/cwltool)
+- Systems Biology tools: [python-libsbml](https://pypi.org/project/python-libsbml/) and [COBRApy](https://opencobra.github.io/cobrapy/)
 - Cheminformatics tools: [Chemaxon_marvin](https://chemaxon.com/)
 - Phylogeny/Orthology tools: [Godon](https://bitbucket.org/Davydov/godon) and [InParanoid](https://bitbucket.org/sonnhammergroup/inparanoid/)
 
 [Nextflow](https://www.nextflow.io/)(Galaxy/Workflow) required for the pipeline convertion to EESSI was updated to the last version.
 
-[toil](https://pypi.org/project/toil/)(Galaxy/Workflow) deployement in EasyBuild is almost complete, waiting for the toil main developer a fix.
+So **7** pull requests!
+
+[toil](https://github.com/DataBiosphere/toil)(Galaxy/Workflow) deployement in EasyBuild is almost complete, waiting for a fix from the toil main developer.
 
 Those tool categories will continue to have particular attentions and be extended in EasyBuild.
 
 
 ## Convert a Nextflow pipeline to EESSI
+
+### Software side
+As mentionned previously [Nextflow](https://www.nextflow.io/)(Galaxy/Workflow) was first updated in EasyBuild, and added in the base configuration of EESSI.
+
+Tools from the **nf-core/mag** pipeline not available in EasyBuild were added:
+- [NanoLyse](https://github.com/wdecoster/nanolyse)
+- [PyDamage](https://github.com/maxibor/pydamage)
+- [CAT-BAT](https://github.com/dutilh/CAT)
+
+Some other tools of the pipeline were version- and/or toolchain-updated.
+
+With their requirements, overall it corresponds to about **20** pull requests, i.e. about **27** software.
+
+An extra pull request was done to bundle the whole pipeline tool list into a single entry point for EESSI.
+
+### EESSI deployment side
 
 
 # Discussion
