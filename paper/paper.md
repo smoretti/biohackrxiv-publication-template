@@ -63,7 +63,7 @@ The main goals of the project were to introduce users to [EasyBuild](https://eas
 
 ## What are EasyBuild and EESI?
 
-EasyBuild is a community effort to develop a software build and installation framework that allows you to manage (scientific) software on High Performance Computing (HPC) systems in an efficient way. As its name suggests, EasyBuild makes software installation easy by automating builds, making previous builds reproducible, resolving dependencies, and retaining logs for traceability. It is also one of the components of the **European Environment for Scientific Software Installations** (EESSI), a collaboration between different European HPC sites and industry partners, with the common goal to set up a shared repository of scientific software installations that can be used on a variety of operating systems and computer architectures. It can be applied in a full size HPC cluster, a cloud environment, a container or a personal workstation.
+EasyBuild is a community effort to develop a software build and installation framework that allows you to manage (scientific) software on High Performance Computing (HPC) systems in an efficient way. As its name suggests, EasyBuild makes software installation easy by automating builds, making previous builds reproducible, resolving dependencies, and retaining logs for traceability. It is also one of the components of the **European Environment for Scientific Software Installations** (EESSI), a collaboration between different European HPC sites and industry partners, with the common goal to set up a shared repository of scientific software installations that can be used on a variety of operating systems and computer architectures. It can be applied in a full size HPC cluster, a cloud environment, a container or a personal workstation (EESSI, 2022).
 
 ![EESSI layers](./EESSI_layers.png)
 
@@ -116,8 +116,6 @@ So, **7** pull requests!
 
 [toil](https://github.com/DataBiosphere/toil)(Galaxy/Workflow) deployment in EasyBuild is almost complete, waiting for a fix from the toil main developer.
 
-Those tool categories will continue to have particular attentions and be extended in EasyBuild.
-
 
 ## Convert a Nextflow pipeline to EESSI
 
@@ -155,7 +153,14 @@ We will continue to work on the issues, and try to complete the EESSI deployment
 
 # Discussion
 
-...
+As part of the ELIXIR BioHackathon 2022 we have introduced EasyBuild and EESSI to the BioHackathon users, extended the number of software in EasyBuild for various categories, and implemented a Nextflow container-based pipeline in EESSI.
+
+The software categories extended during this BioHackathon will continue to have particular attentions in EasyBuild. EasyBuild software will continue to be added and updated by the EasyBuild community.
+
+The convertion of a Nextflow container-based pipeline to a Nextflow EESSI pipeline did not reach our initial goals. All the pipeline tools have been added or updated to EasyBuild, and a bundle was created to add the pipeline tool list as a single entry point in EESSI.
+Nevertheless there are still issues to fix to fully implement the Nextflow pipeline in EESSI, mainly the original pipeline that cannot be run as is, and the architecture issues for some of the tools.
+So we were not able to benchmark EESSI vs the original pipeline, but our efforts will continue to reach this goal.
+
 
 ## Acknowledgements
 We would like to acknowledge all users of the BioHackathon for fruitful interactions and advices, as well as the ELIXIR BioHackathon organization team for this great event.
