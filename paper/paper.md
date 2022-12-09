@@ -67,12 +67,12 @@ EasyBuild is a community effort to develop a software build and installation fra
 
 ![EESSI layers](./EESSI_layers.png)
 
-EasyBuild is the software layer component of EESSI (Fig. 3).
+EasyBuild is the software layer component of EESSI (Fig. 1).
 
 
 ## EasyBuild and EESSI in life sciences
 
-With the deluge of data in the genomics field (e.g., clinical data) and the concomitant development of new technologies, the number of data analysis software has exploded in recent years. The fields of bioinformatics and cheminformatics follow this same trend with ever more developments to optimize and parallelize analyses (Fig. 4). The bioinformatics field is now the main provider of new software in EasyBuild (Fig. 5). Developers of those tools are not always professional developers, and they do therefore not always follow best practices when releasing their software. As a result, many tools are complicated to install, making them ideal candidates for porting their installation to EasyBuild so that they become more easily accessible to end users.
+With the deluge of data in the genomics field (e.g., clinical data) and the concomitant development of new technologies, the number of data analysis software has exploded in recent years. The fields of bioinformatics and cheminformatics follow this same trend with ever more developments to optimize and parallelize analyses (Fig. 2). The bioinformatics field is now the main provider of new software in EasyBuild (Fig. 3). Developers of those tools are not always professional developers, and they do therefore not always follow best practices when releasing their software. As a result, many tools are complicated to install, making them ideal candidates for porting their installation to EasyBuild so that they become more easily accessible to end users.
 
 ![EasyBuild growth](./EasyBuild_growth.png)
 
