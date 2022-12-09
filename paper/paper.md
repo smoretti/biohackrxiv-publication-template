@@ -67,7 +67,7 @@ EasyBuild is a community effort to develop a software build and installation fra
 
 ![EESSI layers](./EESSI_layers.png)
 
-EasyBuild is the software layer component of EESSI (Fig. 1).
+EasyBuild is part of the software layer component of EESSI (Fig. 1).
 
 
 ## EasyBuild and EESSI in life sciences
@@ -114,7 +114,7 @@ During the BioHackathon the following new tools were added in EasyBuild:
 
 So, **7** pull requests!
 
-[toil](https://github.com/DataBiosphere/toil)(Galaxy/Workflow) deployment in EasyBuild is almost complete, waiting for a fix from the toil main developer.
+Suggested by a BioHackathon user of a Galaxy project, a recipe for toil - a workflow engine - was also prepared. [toil](https://github.com/DataBiosphere/toil)(Galaxy/Workflow) deployment in EasyBuild is almost complete, waiting for a fix from the toil main developer.
 
 
 ## Convert a Nextflow pipeline to EESSI
@@ -148,8 +148,6 @@ Nevertheless, several issues came out:
 
 See pull requests details [here](https://github.com/EESSI/software-layer/issues?q=label%3ABioHack2022)
 
-We will continue to work on the issues, and try to complete the EESSI deployment of the **nf-core/mag** pipeline in the coming weeks.
-
 
 # Discussion
 
@@ -159,7 +157,7 @@ The software categories extended during this BioHackathon will continue to have 
 
 The convertion of a Nextflow container-based pipeline to a Nextflow EESSI pipeline did not reach our initial goals. All the pipeline tools have been added or updated to EasyBuild, and a bundle was created to add the pipeline tool list as a single entry point in EESSI.
 Nevertheless there are still issues to fix to fully implement the Nextflow pipeline in EESSI, mainly the original pipeline that cannot be run as is, and the architecture issues for some of the tools.
-So we were not able to benchmark EESSI vs the original pipeline, but our efforts will continue to reach this goal.
+So we were not able to benchmark EESSI vs the original pipeline during the BioHackathon, but our efforts will continue to reach this goal.
 
 
 ## Acknowledgements
