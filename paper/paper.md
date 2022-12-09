@@ -52,7 +52,9 @@ authors_short: Sébastien Moretti & Kenneth Hoste \emph{et al.}
 
 # Introduction
 
-As part of the BioHackathon Europe 2022, we here report the outcomes of the Project #16: **Make your own or favourite software available on your cluster with EasyBuild/EESSI**.
+As part of the BioHackathon Europe 2022, we here report the outcomes of the Project #16:
+
+**Make your own or favourite software available on your cluster with EasyBuild/EESSI**.
 
 ![EasyBuild logo](./easybuild_logo400.png)  ![EESSI logo](./EESSI_logo400.png)
 
