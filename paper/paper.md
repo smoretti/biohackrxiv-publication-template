@@ -89,7 +89,7 @@ Based on feedbacks from BioHackathon users, as well as on BioHackathon project t
 - Cheminformatics
 - Phylogeny/Orthology
 
-## The Nextflow pipeline to convert to an EESSI pipeline
+## Integrate EESSI in a Nextflow pipeline
 One of our users works in metagenomics and is interested by the [nf-core/mag](https://nf-co.re/mag) pipeline: **Assembly and binning of metagenomes**.
 
 **nf-core/mag** is a "bioinformatics best-practise analysis pipeline for assembly, binning and annotation of metagenomes". It is composed of about 28 different tools. This complicated pipeline was chosen to illustrate how easy pipelines can be deployed in an optimised version with EESSI.
