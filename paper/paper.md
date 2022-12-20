@@ -156,7 +156,7 @@ As part of the ELIXIR BioHackathon 2022 we have introduced EasyBuild and EESSI t
 The software categories extended during this BioHackathon will continue to have particular attentions in EasyBuild. EasyBuild software will continue to be added and updated by the EasyBuild community.
 
 The integration of EESSI as a new Nextflow profile did not reach our initial goals. All the pipeline tools have been added or updated to EasyBuild, and a bundle was created to add the pipeline tool list as a single entry point in EESSI.
-Nevertheless there are still issues to fix to fully implement the Nextflow pipeline in EESSI, mainly the original pipeline that cannot be run as is, and the architecture issues for some of the tools.
+Nevertheless there are still issues to fix to fully integrate EESSI in this Nextflow pipeline, mainly the original pipeline that cannot be run as is, and the architecture issues for some of the tools.
 So we were not able to benchmark EESSI vs the original pipeline during the BioHackathon, but our efforts will continue to reach this goal.
 
 
