@@ -63,7 +63,7 @@ The main goals of the project were to introduce users to [EasyBuild](https://eas
 
 ## What are EasyBuild and EESI?
 
-EasyBuild is a community effort to develop a software build and installation framework that allows you to manage (scientific) software on High Performance Computing (HPC) systems in an efficient way. As its name suggests, EasyBuild makes software installation easy by automating builds, making previous builds reproducible, resolving dependencies, and retaining logs for traceability. It is also one of the components of the **European Environment for Scientific Software Installations** (EESSI), a collaboration between different European HPC sites and industry partners, with the common goal to set up a shared repository of scientific software installations that can be used on a variety of operating systems and computer architectures. It can be applied in a full size HPC cluster, a cloud environment, a container or a personal workstation (EESSI, 2022).
+EasyBuild is a community effort to develop a software build and installation framework that allows you to manage (scientific) software on High Performance Computing (HPC) systems in an efficient way. As its name suggests, EasyBuild makes software installation easy by automating builds, making previous builds reproducible, resolving dependencies, and retaining logs for traceability. It is also one of the components of the **European Environment for Scientific Software Installations** (EESSI), a collaboration between different European HPC sites and industry partners, with the common goal to set up a shared repository of scientific software installations that can be used on a variety of operating systems and computer architectures. It can be applied in a full size HPC cluster, a cloud environment, a container or a personal workstation (EESSI, 2023).
 
 ![EESSI layers](./EESSI_layers.png)
 
@@ -185,4 +185,4 @@ We would like to acknowledge all users of the BioHackathon for fruitful interact
 
 ## References
 
-1. EESSI [@citesAsAuthority:EESSI2022]
+1. EESSI [@citesAsAuthority:EESSI2023]
