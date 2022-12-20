@@ -179,7 +179,7 @@ We would like to acknowledge all users of the BioHackathon for fruitful interact
 - EasyBuild last presentations: https://www.youtube.com/c/easybuilders
 - EESSI homepage: https://www.eessi-hpc.org/
 - EESSI at GitHub: https://github.com/EESSI
-- Introductory talk on EESSI:
+- Introductory talks on EESSI:
   - https://archive.fosdem.org/2021/schedule/event/eessi
   - https://eessi.github.io/docs/meetings/2022-09-amsterdam/EESSI-community-meeting-2022.09-001-introduction-to-EESSI.pdf
 
