@@ -58,7 +58,7 @@ As part of the BioHackathon Europe 2022, we here report the outcomes of the Proj
 
 ![EasyBuild logo](./easybuild_logo400.png)  ![EESSI logo](./EESSI_logo400.png)
 
-The main goals of the project were to introduce users to [EasyBuild](https://easybuild.io/) and [EESSI](https://www.eessi-hpc.org/), to port new software to EasyBuild/EESSI (e.g., the participant’s own or favourite software) - thereby making it available and discoverable to the entire EasyBuild community -, and to convert a Nextflow pipeline into an EESSI pipeline. In parallel we started to build bridges between EESSI and Galaxy to make the scientific software more accessible to researchers in the domain.
+The main goals of the project were to introduce users to [EasyBuild](https://easybuild.io/) and [EESSI](https://www.eessi-hpc.org/), to port new software to EasyBuild/EESSI (e.g., the participant’s own or favourite software) - thereby making it available and discoverable to the entire EasyBuild community -, and to integrate EESSI in a Nextflow pipeline. In parallel we started to build bridges between EESSI and Galaxy to make the scientific software more accessible to researchers in the domain.
 
 
 ## What are EasyBuild and EESI?
@@ -110,14 +110,14 @@ During the BioHackathon the following new tools were added in EasyBuild:
 - Cheminformatics tools: [Chemaxon_marvin](https://chemaxon.com/)
 - Phylogeny/Orthology tools: [Godon](https://bitbucket.org/Davydov/godon) and [InParanoid](https://bitbucket.org/sonnhammergroup/inparanoid/)
 
-[Nextflow](https://www.nextflow.io/)(Galaxy/Workflow) required for the pipeline conversion to EESSI was updated to the last version.
+[Nextflow](https://www.nextflow.io/)(Galaxy/Workflow) required for the EESSI integration in the pipeline was updated to the last version.
 
 So, **7** pull requests!
 
 Suggested by a BioHackathon user of a Galaxy project, a recipe for toil - a workflow engine - was also prepared. [toil](https://github.com/DataBiosphere/toil)(Galaxy/Workflow) deployment in EasyBuild is almost complete, waiting for a fix from the toil main developer.
 
 
-## Convert a Nextflow pipeline to EESSI
+## Integrate EESSI in a Nextflow pipeline
 
 ### Software side
 As mentioned previously [Nextflow](https://www.nextflow.io/)(Galaxy/Workflow) was first updated in EasyBuild, and added in the base configuration of EESSI.
