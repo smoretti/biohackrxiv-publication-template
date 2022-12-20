@@ -151,7 +151,7 @@ See pull requests details [here](https://github.com/EESSI/software-layer/issues?
 
 # Discussion
 
-As part of the ELIXIR BioHackathon 2022 we have introduced EasyBuild and EESSI to the BioHackathon users, extended the number of software in EasyBuild for various categories, and implemented a Nextflow container-based pipeline in EESSI.
+As part of the ELIXIR BioHackathon 2022 we have introduced EasyBuild and EESSI to the BioHackathon users, extended the number of software in EasyBuild for various categories, and started to integrate EESSI as a Nextflow profile.
 
 The software categories extended during this BioHackathon will continue to have particular attentions in EasyBuild. EasyBuild software will continue to be added and updated by the EasyBuild community.
 
