@@ -160,6 +160,13 @@ Nevertheless there are still issues to fix to fully integrate EESSI in this Next
 So we were not able to benchmark EESSI vs the original pipeline during the BioHackathon, but our efforts will continue to reach this goal.
 
 
+## Continuation
+Our efforts continue after the BioHackathon:
+- [toil](https://github.com/DataBiosphere/toil)(Galaxy/Workflow) has been added in EasyBuild.
+- The compilation of some tools on different architectures has been fixed.
+- The library usage has been patched.
+
+
 ## Acknowledgements
 We would like to acknowledge all users of the BioHackathon for fruitful interactions and advices, as well as the ELIXIR BioHackathon organization team for this great event.
 
