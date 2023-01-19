@@ -162,6 +162,7 @@ So we were not able to benchmark EESSI vs the original pipeline during the BioHa
 
 ## Continuation
 Our efforts continue after the BioHackathon:
+
 - [toil](https://github.com/DataBiosphere/toil)(Galaxy/Workflow) has been added in EasyBuild.
 - The compilation of some tools on different architectures has been fixed.
 - The library usage has been patched.
